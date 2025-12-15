@@ -10,7 +10,7 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 
 ### 🎯 What I Do:
 - 🎮 **Game Development** with Unity (C#) - Building the games I always wanted to play
-- 💻 **Competitive Programming** - Crushing algorithmic challenges with Python & C++
+- 💻 **Competitive Programming** - Crushing algorithmic challenges with Python,C & C++
 - 🔗 **Full-Stack Web Development** - TypeScript, React, Express, PostgreSQL stack
 - 📊 **Data Structures & Algorithms** - Binary trees, sorting, dynamic programming enthusiast
 - 🗄️ **Database Design** - SQL, JDBC, and efficient schema crafting
@@ -20,11 +20,11 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 ## 🛠️ Tech Stack
 
 ```
-🔴 Languages: Java | Python | C++ | JavaScript | C#
-🟦 Frontend: React | HTML | CSS | JavaScript
+🔴 Languages: Java | Python | C | C++
+🟦 Frontend: React | HTML | CSS | JavaScript | Tailwind CSS
 🟩 Backend: Express.js | Python | Node.js
-🗄️ Databases: PostgreSQL | MySQL | JDBC
-🎮 Game Dev: Unity | ShaderLab | C#
+🗄️ Databases: PostgreSQL | MySQL | NoSQL | JDBC
+🎮 Game Dev: Unity | Godot | Scratch | C#
 🔧 Tools: VS Code | IntelliJ IDEA | Git | GitHub
 ```
 
@@ -46,22 +46,14 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 - Learning project that explores game mechanics in depth
 - [→ Play Pong](https://github.com/AjoJosee/Pong_game)
 
-### 3. **Possibly Social Media** (BrotoDesk) 💼
-*Full-stack complaint management system for student communities*
-- **Stack**: TypeScript + React + Express + PostgreSQL
-- Mobile-responsive Admin Dashboard
-- Production-ready with proper database schema
-- Part of the Lovable Challenge
-- [→ Check it out](https://github.com/AjoJosee/Possibly-social-media)
-
-### 4. **Library Management System v2** 📚
+### 3. **Library Management System v2** 📚
 *Complete library management with Java Swing UI*
 - Built with **Java** + **Swing** for desktop UI
 - Database-backed with proper data persistence
 - CRUD operations, user authentication, book tracking
 - [→ View Code](https://github.com/AjoJosee/Library-Management-System--v2-)
 
-### 5. **Obsidian Archives CTF** 🔐
+### 4. **Obsidian Archives CTF** 🔐
 *Interactive story-based CTF puzzle game*
 - Built with **JavaScript**
 - Unique narrative-driven challenges
@@ -79,17 +71,17 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 ⭐ 9 followers | 17 following
 ```
 
-**Most Active Areas**: Game Development, Web Development, Algorithms
+**Most Active Areas**: Game Development, Web Development, Competitive Programing
 
 ---
 
 ## 🎓 Learning Journey
 
 ✅ **JEE Advanced Qualifier** - Strong fundamentals in mathematics & problem-solving  
-✅ **Data Structures Specialist** - Binary trees, linked lists, sorting mastery  
+✅ **Data Structures Specialist** - All india top 3.4% in ATF 2025 with > 2.5L participants
 ✅ **Full-Stack Developer** - From database design to responsive UIs  
-✅ **Game Dev Enthusiast** - Understanding game loops, physics, and user experience  
-✅ **Competitive Programmer** - Regular Advent of Code challenger  
+✅ **Game Dev Enthusiast** - Understanding game loops, physics, and user experience
+✅ **Competitive Programmer** - Advent of Code challenger  
 
 ---
 
@@ -109,7 +101,7 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 - 🍽️ I love experimenting with new recipes (when code doesn't consume all my time!)
 - 🔧 Debug mode: Enabled 24/7
 - ⚡ Best productivity hack: Coffee + Problem-solving = ∞ Productivity
-- 🎯 Goal: Build games that bring joy to millions
+- 🎯 Goal: Build stuff that bring joy to millions
 
 ---
 
