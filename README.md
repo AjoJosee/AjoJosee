@@ -1,125 +1,152 @@
-# Hey there! 👋 Welcome to my digital playground! 🚀
+<img src="https://media.giphy.com/media/2IudUHdI075OMRoraA/giphy.gif" width="100%" />
 
-> *"Code is poetry written in loops and conditionals."* - Ajo Jose
+<h1 align="center">Hey there! 👋 Welcome to my digital playground! 🚀</h1>
 
----
+<p align="center">
+  <em>"Code is poetry written in loops and conditionals." - Ajo Jose</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/AjoJosee"><img src="https://img.shields.io/badge/GitHub-AjoJosee-blue?style=flat-square&logo=github"></a>
+  <a href="mailto:ajojoseeee@gmail.com"><img src="https://img.shields.io/badge/Email-ajojoseeee@gmail.com-red?style=flat-square&logo=gmail"></a>
+  <img src="https://komarev.com/ghpvc/?username=AjoJosee&color=brightgreen&style=flat-square">
+</p>
+
+<hr/>
 
 ## 🎮 About Me
 
 I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineering, Trivandrum**, passionate about building cool stuff and solving complex problems. When I'm not coding, you'll find me exploring game mechanics, debugging late into the night, or experimenting with new recipes! 🍳
 
-### 🎯 What I Do:
-- 🎮 **Game Development** with Unity (C#) - Building the games I always wanted to play
-- 💻 **Competitive Programming** - Crushing algorithmic challenges with Python,C & C++
-- 🔗 **Full-Stack Web Development** - TypeScript, React, Express, PostgreSQL stack
-- 📊 **Data Structures & Algorithms** - Binary trees, sorting, dynamic programming enthusiast
-- 🗄️ **Database Design** - SQL, JDBC, and efficient schema crafting
+
+💻 Building games with Unity | 🎯 Crushing algorithms | 🔗 Full-Stack Dev
+📚 Learning | 🚀 Dreaming | ⚡ Creating
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-```
-🔴 Languages: Java | Python | C | C++
-🟦 Frontend: React | HTML | CSS | JavaScript | Tailwind CSS
-🟩 Backend: Express.js | Python | Node.js
-🗄️ Databases: PostgreSQL | MySQL | NoSQL | JDBC
-🎮 Game Dev: Unity | Godot | Scratch | C#
-🔧 Tools: VS Code | IntelliJ IDEA | Git | GitHub
-```
+### **Frontend**
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### **Backend**
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+
+### **Database**
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+### **Game Dev**
+![Unity](https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+
+### **Tools**
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![IntelliJ](https://img.shields.io/badge/-IntelliJ-000000?style=flat-square&logo=intellij-idea&logoColor=white)
 
 ---
 
 ## 🌟 Featured Projects
 
-### 1. **QUIZZIE** 🧠
-*An interactive, engaging quiz platform that makes learning fun!*
-- Built with **JavaScript** + **Interactive Game Mechanics**
-- Covers multiple subjects: CS, Physics, Chemistry, Mathematics
-- Features: Real-time scoring, progress tracking, smooth UX
-- [→ Explore QUIZZIE](https://github.com/AjoJosee/QUIZZIE)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 2. **Pong Game** 🏓
-*Classic Pong game rebuilt with modern Unity game development*
-- Built with **Unity (C#)** + **ShaderLab** for custom graphics
-- Smooth physics, AI opponent, polished gameplay
-- Learning project that explores game mechanics in depth
-- [→ Play Pong](https://github.com/AjoJosee/Pong_game)
+### 🧠 [QUIZZIE](https://github.com/AjoJosee/QUIZZIE)
+*Interactive, engaging quiz platform*
+- Built with **JavaScript** + Game Mechanics
+- Multiple subjects: CS, Physics, Chemistry, Math
+- Real-time scoring & progress tracking
 
-### 3. **Library Management System v2** 📚
-*Complete library management with Java Swing UI*
-- Built with **Java** + **Swing** for desktop UI
-- Database-backed with proper data persistence
-- CRUD operations, user authentication, book tracking
-- [→ View Code](https://github.com/AjoJosee/Library-Management-System--v2-)
+</td>
+<td width="50%" valign="top">
 
-### 4. **Obsidian Archives CTF** 🔐
-*Interactive story-based CTF puzzle game*
-- Built with **JavaScript**
-- Unique narrative-driven challenges
-- Creative problem-solving mechanics
-- [→ Solve Puzzles](https://github.com/AjoJosee/obsidian-archives-ctf)
+### 🏓 [Pong Game](https://github.com/AjoJosee/Pong_game)
+*Classic Pong rebuilt with Unity*
+- Built with **Unity (C#)** + ShaderLab
+- Smooth physics & AI opponent
+- Polished gameplay mechanics
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 [Library Manager v2](https://github.com/AjoJosee/Library-Management-System--v2-)
+*Complete library management system*
+- Built with **Java** + **Swing** UI
+- Database-backed with persistence
+- CRUD operations & authentication
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📊 GitHub Stats
 
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AjoJosee&theme=radical&show_icons=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AjoJosee&theme=radical&layout=compact&langs_count=8)
+
+</div>
+
+---
+
+## 🎯 Current Focus
+
+<div align="center">
+
+✨ **AI/ML Integration** | 🌐 **Advanced Web Patterns** | 📱 **Mobile Game Optimization** | 🧮 **Advanced Algorithms**
+
+</div>
+
+---
+
+## 💡 Quick Stats
+
 ```
-🎯 100+ contributions in the last year
-📚 18 repositories with diverse projects
-🔗 Active collaborator & open to projects
-⭐ 9 followers | 17 following
+🎓 JEE Advanced Qualifier          📊 Data Structures Expert
+🎮 Game Dev Enthusiast             💻 Full-Stack Developer  
+🏆 Competitive Programmer          📈 100+ Contributions
 ```
-
-**Most Active Areas**: Game Development, Web Development, Competitive Programing
-
----
-
-## 🎓 Learning Journey
-
-✅ **JEE Advanced Qualifier** - Strong fundamentals in mathematics & problem-solving  
-✅ **Data Structures Specialist** - All india top 3.4% in ATF 2025 with > 2.5L participants
-✅ **Full-Stack Developer** - From database design to responsive UIs  
-✅ **Game Dev Enthusiast** - Understanding game loops, physics, and user experience
-✅ **Competitive Programmer** - Advent of Code challenger  
-
----
-
-## 🎪 Currently Exploring
-
-- 🤖 AI integration in game development
-- 🌐 Advanced web framework patterns
-- 📱 Mobile game optimization
-- 🧮 Advanced algorithmic techniques
-- 🎨 Game art and shader programming
-
----
-
-## 💡 Fun Facts
-
-- 🎮 My gaming inspiration: Ghost of Tsushima, Spider-Man, GTA 5, Forza Horizon
-- 🍽️ I love experimenting with new recipes (when code doesn't consume all my time!)
-- 🔧 Debug mode: Enabled 24/7
-- ⚡ Best productivity hack: Coffee + Problem-solving = ∞ Productivity
-- 🎯 Goal: Build stuff that bring joy to millions
 
 ---
 
 ## 📬 Let's Connect!
 
-- 📧 Email: [ajojoseeee@gmail.com](mailto:ajojoseeee@gmail.com)
-- 🌐 GitHub: [@AjoJosee](https://github.com/AjoJosee)
-- 💼 Open to collaborations on: Game Dev, Full-Stack Projects, Competitive Programming
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-ajojoseeee%40gmail.com-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajojoseeee@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-AjoJosee-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AjoJosee)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajo-jose-92876a309/)
+
+</div>
 
 ---
 
 ## 🚀 What's Next?
 
-I'm actively working on:
-- Expanding my portfolio with more production-ready projects
-- Contributing to open-source game development projects
-- Building a personal game that showcases my skills
-- Mentoring fellow programmers in my community
+```
+→ Expanding portfolio with production-ready projects
+→ Contributing to open-source game dev projects  
+→ Building a showcase game with advanced mechanics
+→ Mentoring junior programmers
+```
 
 ---
 
@@ -127,6 +154,8 @@ I'm actively working on:
 
 ### ✨ *"Code today, games tomorrow, legend forever!"* ✨
 
-![](https://komarev.com/ghpvc/?username=AjoJosee&color=blue)
+<img src="https://media.giphy.com/media/W2PDjCkUWrBzl8h32T/giphy.gif" width="200" />
+
+![Profile Views](https://komarev.com/ghpvc/?username=AjoJosee&color=brightgreen&label=Profile+Views&style=flat-square)
 
 </div>
