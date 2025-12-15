@@ -83,15 +83,6 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 <tr>
 <td width="50%" valign="top">
 
-### 💼 [BrotoDesk](https://github.com/AjoJosee/Possibly-social-media)
-*Full-stack complaint management*
-- **TypeScript + React + Express + PostgreSQL**
-- Mobile-responsive dashboard
-- Production-ready with database schema
-
-</td>
-<td width="50%" valign="top">
-
 ### 📚 [Library Manager v2](https://github.com/AjoJosee/Library-Management-System--v2-)
 *Complete library management system*
 - Built with **Java** + **Swing** UI
@@ -156,21 +147,6 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 
 ---
 
-## 🎪 Interactive Experience
-
-<div align="center">
-<p><strong>🎮 Try this mini game:</strong></p>
-
-```
-╔═════════════════════╗
-║  🎯 CLICK TO PLAY   ║
-║  Press Spacebar ↓   ║
-║  Jump over enemies! ║
-╚═════════════════════╝
-```
-
-<p><em>This is a text representation. In your terminal, imagine a simple platformer game!</em></p>
-</div>
 
 ---
 
