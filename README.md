@@ -15,10 +15,10 @@
 
 I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineering, Trivandrum**, passionate about building cool stuff and solving complex problems. When I'm not coding, you'll find me exploring game mechanics, debugging late into the night, or experimenting with new recipes! 🍳
 
-```
+
 💻 Building games with Unity | 🎯 Crushing algorithms | 🔗 Full-Stack Dev
 📚 Learning | 🚀 Dreaming | ⚡ Creating
-```
+
 
 ---
 
