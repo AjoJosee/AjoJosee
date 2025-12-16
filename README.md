@@ -156,7 +156,7 @@ I'm **Ajo Jose**, a 2nd-year Computer Science student at **College of Engineerin
 
 [![Email](https://img.shields.io/badge/Email-ajojoseeee%40gmail.com-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajojoseeee@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AjoJosee-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AjoJosee)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajo-jose/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajo-jose-92876a309/)
 
 </div>
 
