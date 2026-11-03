@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="112" viewBox="0 0 828 112" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution grid snake</title>
+  <desc id="desc">A purple snake moving through a GitHub-style contribution grid.</desc>
+  <rect width="828" height="112" rx="8" fill="#0d1117"/>
+  <g fill="#161b22">
+    <path d="M0 0h12v12H0zM18 0h12v12H18zM36 0h12v12H36zM54 0h12v12H54zM72 0h12v12H72zM90 0h12v12H90zM108 0h12v12H108zM126 0h12v12H126zM144 0h12v12H144zM162 0h12v12H162zM180 0h12v12H180zM198 0h12v12H198zM216 0h12v12H216zM234 0h12v12H234zM252 0h12v12H252zM270 0h12v12H270zM288 0h12v12H288zM306 0h12v12H306zM324 0h12v12H324zM342 0h12v12H342zM360 0h12v12H360zM378 0h12v12H378zM396 0h12v12H396zM414 0h12v12H414zM432 0h12v12H432zM450 0h12v12H450zM468 0h12v12H468zM486 0h12v12H486zM504 0h12v12H504zM522 0h12v12H522zM540 0h12v12H540zM558 0h12v12H558zM576 0h12v12H576zM594 0h12v12H594zM612 0h12v12H612zM630 0h12v12H630zM648 0h12v12H648zM666 0h12v12H666zM684 0h12v12H684zM702 0h12v12H702zM720 0h12v12H720zM738 0h12v12H738zM756 0h12v12H756zM774 0h12v12H774zM792 0h12v12H792zM810 0h12v12H810z"/>
+  </g>
+  <g fill="#21262d">
+    <path d="M0 18h12v12H0zM18 18h12v12H18zM36 18h12v12H36zM54 18h12v12H54zM72 18h12v12H72zM90 18h12v12H90zM108 18h12v12H108zM126 18h12v12H126zM144 18h12v12H144zM162 18h12v12H162zM180 18h12v12H180zM198 18h12v12H198zM216 18h12v12H216zM234 18h12v12H234zM252 18h12v12H252zM270 18h12v12H270zM288 18h12v12H288zM306 18h12v12H306zM324 18h12v12H324zM342 18h12v12H342zM360 18h12v12H360zM378 18h12v12H378zM396 18h12v12H396zM414 18h12v12H414zM432 18h12v12H432zM450 18h12v12H450zM468 18h12v12H468zM486 18h12v12H486zM504 18h12v12H504zM522 18h12v12H522zM540 18h12v12H540zM558 18h12v12H558zM576 18h12v12H576zM594 18h12v12H594zM612 18h12v12H612zM630 18h12v12H630zM648 18h12v12H648zM666 18h12v12H666zM684 18h12v12H684zM702 18h12v12H702zM720 18h12v12H720zM738 18h12v12H738zM756 18h12v12H756zM774 18h12v12H774zM792 18h12v12H792zM810 18h12v12H810z"/>
+  </g>
+  <g fill="#238636">
+    <rect x="72" y="36" width="12" height="12" rx="2"/><rect x="90" y="36" width="12" height="12" rx="2"/><rect x="108" y="36" width="12" height="12" rx="2"/><rect x="126" y="36" width="12" height="12" rx="2"/><rect x="144" y="36" width="12" height="12" rx="2"/><rect x="162" y="36" width="12" height="12" rx="2"/><rect x="180" y="36" width="12" height="12" rx="2"/><rect x="198" y="36" width="12" height="12" rx="2"/><rect x="216" y="36" width="12" height="12" rx="2"/><rect x="234" y="36" width="12" height="12" rx="2"/><rect x="252" y="36" width="12" height="12" rx="2"/><rect x="270" y="36" width="12" height="12" rx="2"/><rect x="288" y="36" width="12" height="12" rx="2"/><rect x="306" y="36" width="12" height="12" rx="2"/><rect x="324" y="36" width="12" height="12" rx="2"/><rect x="342" y="36" width="12" height="12" rx="2"/><rect x="360" y="36" width="12" height="12" rx="2"/><rect x="378" y="36" width="12" height="12" rx="2"/><rect x="396" y="36" width="12" height="12" rx="2"/><rect x="414" y="36" width="12" height="12" rx="2"/><rect x="432" y="36" width="12" height="12" rx="2"/><rect x="450" y="36" width="12" height="12" rx="2"/>
+  </g>
+  <path d="M78 42h390v18H312v18H222V60H96V78H60" fill="none" stroke="#a371f7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="78" cy="42" r="7" fill="#d2a8ff"/>
+  <circle cx="60" cy="78" r="7" fill="#ff7b72"/>
+</svg>
