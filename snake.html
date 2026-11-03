@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ajo's Snake</title>
+    <style>
+      :root { color-scheme: dark; --bg: #0d1117; --panel: #161b22; --line: #30363d; --text: #f0f6fc; --muted: #8b949e; --accent: #a371f7; --food: #ff7b72; }
+      * { box-sizing: border-box; }
+      body { align-items: center; background: radial-gradient(circle at top, #21183d, var(--bg) 48%); color: var(--text); display: flex; font: 16px/1.5 system-ui, sans-serif; justify-content: center; margin: 0; min-height: 100vh; padding: 24px; }
+      main { max-width: 560px; text-align: center; width: 100%; }
+      h1 { margin: 0 0 4px; }
+      p { color: var(--muted); margin: 0 0 20px; }
+      .game { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 24px 80px #0008; padding: 16px; }
+      canvas { background: #0b0f14; border: 1px solid var(--line); border-radius: 8px; display: block; image-rendering: pixelated; margin: 0 auto; max-width: 100%; }
+      .stats { display: flex; justify-content: space-between; margin: 12px 2px 0; }
+      .stats span { color: var(--muted); }
+      .stats strong { color: var(--text); }
+      button { background: var(--accent); border: 0; border-radius: 8px; color: white; cursor: pointer; font: inherit; margin-top: 16px; padding: 10px 18px; }
+      button:hover, button:focus-visible { filter: brightness(1.15); }
+      a { color: #d2a8ff; display: inline-block; margin-top: 18px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>🐍 Ajo's Snake</h1>
+      <p>Use the arrow keys or WASD. Eat the dots, avoid the walls.</p>
+      <section class="game" aria-label="Snake game">
+        <canvas id="board" width="480" height="480"></canvas>
+        <div class="stats"><span>Score: <strong id="score">0</strong></span><span id="status">Ready</span></div>
+        <button id="restart" type="button">Start game</button>
+      </section>
+      <a href="https://github.com/AjoJosee/AjoJosee">← Back to profile</a>
+    </main>
+    <script>
+      const canvas = document.querySelector("#board");
+      const ctx = canvas.getContext("2d");
+      const scoreEl = document.querySelector("#score");
+      const statusEl = document.querySelector("#status");
+      const button = document.querySelector("#restart");
+      const size = 24;
+      const cell = canvas.width / size;
+      let snake, food, direction, nextDirection, score, timer, running;
+
+      function reset() {
+        snake = [{ x: 12, y: 12 }, { x: 11, y: 12 }, { x: 10, y: 12 }];
+        direction = { x: 1, y: 0 };
+        nextDirection = direction;
+        score = 0;
+        running = false;
+        placeFood();
+        scoreEl.textContent = score;
+        statusEl.textContent = "Ready";
+        draw();
+      }
+
+      function placeFood() {
+        do {
+          food = { x: Math.floor(Math.random() * size), y: Math.floor(Math.random() * size) };
+        } while (snake?.some((part) => part.x === food.x && part.y === food.y));
+      }
+
+      function draw() {
+        ctx.fillStyle = "#0b0f14";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "#ff7b72";
+        ctx.fillRect(food.x * cell + 3, food.y * cell + 3, cell - 6, cell - 6);
+        snake.forEach((part, index) => {
+          ctx.fillStyle = index === 0 ? "#d2a8ff" : "#8b5cf6";
+          ctx.fillRect(part.x * cell + 2, part.y * cell + 2, cell - 4, cell - 4);
+        });
+      }
+
+      function step() {
+        direction = nextDirection;
+        const head = { x: snake[0].x + direction.x, y: snake[0].y + direction.y };
+        const hitWall = head.x < 0 || head.x >= size || head.y < 0 || head.y >= size;
+        const hitSelf = snake.some((part) => part.x === head.x && part.y === head.y);
+        if (hitWall || hitSelf) {
+          clearInterval(timer);
+          running = false;
+          statusEl.textContent = "Game over";
+          button.textContent = "Play again";
+          return;
+        }
+        snake.unshift(head);
+        if (head.x === food.x && head.y === food.y) {
+          score += 1;
+          scoreEl.textContent = score;
+          placeFood();
+        } else {
+          snake.pop();
+        }
+        draw();
+      }
+
+      function start() {
+        if (running) return;
+        running = true;
+        statusEl.textContent = "Playing";
+        button.textContent = "Restart";
+        clearInterval(timer);
+        timer = setInterval(step, 105);
+      }
+
+      document.addEventListener("keydown", (event) => {
+        const keys = { ArrowUp: [0, -1], w: [0, -1], ArrowDown: [0, 1], s: [0, 1], ArrowLeft: [-1, 0], a: [-1, 0], ArrowRight: [1, 0], d: [1, 0] };
+        const move = keys[event.key];
+        if (!move || (move[0] === -direction.x && move[1] === -direction.y)) return;
+        event.preventDefault();
+        nextDirection = { x: move[0], y: move[1] };
+        start();
+      });
+
+      button.addEventListener("click", () => { reset(); start(); });
+      reset();
+    </script>
+  </body>
+</html>
